@@ -1,12 +1,26 @@
 # test_stale_action
-(*FIXME: In one or two paragraphs, describe what the extension does and why one would download it. *)
 
-This is an [extension for CiviCRM](https://docs.civicrm.org/sysadmin/en/latest/customize/extensions/), licensed under [AGPL-3.0](LICENSE.txt).
+This is a repository for testing the gitub stale action.
+
+The stale action has been adjusted in order to:
+
+- add the label `Stale` to a PR or Issues after one day of inactivity
+  - the PR or Issue additionally needs one of the labels `status:needs work` or `status: needs more infos`
+- close a PR or Issue with label `Stale` after one day of inactivity
+
+See stale-configuration in this repos at:
+
+- .github/workflows/stale.yml
 
 ## Getting Started
 
-(* FIXME: Where would a new user navigate to get started? What changes would they see? *)
+Nothing needs to be done except to add a few PRs and Issues with one of the following labels:
 
-## Known Issues
+- `status:needs more infos`
+- `status:needs work`
 
-(* FIXME *)
+Add some more PRs and Issues with those labels but also with the label
+
+- `important`
+
+That label is supposed to prevent the closing of issues in any case.
