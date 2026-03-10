@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<extension key="test_stale_action" type="module">
+  <file>test_stale_action</file>
+  <name>test_stale_action</name>
+  <description>a noop extionsion for testing github-stale action</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Sven Nowotnik</author>
+    <email>nowotnik@systopia.de</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">http://FIXME</url>
+    <url desc="Documentation">http://FIXME</url>
+    <url desc="Support">http://FIXME</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2026-03-10</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>5.78</ver>
+  </compatibility>
+  <comments>a noop extionsion for testing github-stale action</comments>
+  <classloader>
+    <psr0 prefix="CRM_" path="."/>
+    <psr4 prefix="Civi\" path="Civi"/>
+  </classloader>
+  <civix>
+    <namespace>CRM/TestStaleAction</namespace>
+    <format>23.02.1</format>
+    <angularModule>crmTestStaleAction</angularModule>
+  </civix>
+  <mixins>
+    <mixin>mgd-php@1.0.0</mixin>
+    <mixin>setting-php@1.0.0</mixin>
+    <mixin>smarty-v2@1.0.1</mixin>
+  </mixins>
+</extension>
