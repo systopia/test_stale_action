@@ -10,7 +10,7 @@ The stale action has been adjusted in order to:
 
 See stale-configuration in this repos at:
 
-- .github/workflows/stale.yml
+- [.github/workflows/stale.yml](https://github.com/systopia/test_stale_action/blob/main/.github/workflows/stale.yml)
 
 ## Getting Started
 
@@ -19,7 +19,7 @@ Nothing needs to be done except to add a few PRs and Issues with one of the foll
 - `status:needs more infos`
 - `status:needs work`
 
-Add some more PRs and Issues with those labels but also with the label
+Add some more PRs and Issues with those labels but also with the label:
 
 - `important`
 
